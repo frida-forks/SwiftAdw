@@ -30,6 +30,7 @@ struct _AdwCarouselIndicatorLines {};
 struct _AdwClamp {};
 struct _AdwClampLayout {};
 struct _AdwClampScrollable {};
+struct _AdwCssClassBinding {};
 struct _AdwEnumListItem {};
 struct _AdwEnumListModel {};
 struct _AdwFlap {};
