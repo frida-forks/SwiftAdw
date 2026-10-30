@@ -2,8 +2,8 @@
 
 A Swift wrapper around [libadwaita](https://gnome.pages.gitlab.gnome.org/libadwaita/),
 largely auto-generated from gobject-introspection via
-[gir2swift](https://github.com/frida/gir2swift). This package layers
-Adwaita widgets on top of [SwiftGtk](https://github.com/frida/SwiftGtk).
+[gir2swift](https://github.com/frida-forks/gir2swift). This package layers
+Adwaita widgets on top of [SwiftGtk](https://github.com/frida-forks/SwiftGtk).
 
 ## Requirements
 
@@ -29,7 +29,7 @@ sudo apt install libadwaita-1-dev gir1.2-adw-1 \
 ## Usage
 
 ```swift
-.package(url: "https://github.com/frida/SwiftAdw.git", branch: "development"),
+.package(url: "https://github.com/frida-forks/SwiftAdw.git", branch: "development"),
 ```
 
 Then depend on the `Adw` product:
