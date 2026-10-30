@@ -16,8 +16,8 @@ let package = Package(
     name: "Adw",
     products: [ .library(name: "Adw", targets: ["Adw"]) ],
     dependencies: [
-        .package(url: "https://github.com/frida/gir2swift.git", branch: "development"),
-        .package(url: "https://github.com/frida/SwiftGtk.git",  branch: "gtk4-development"),
+        .package(url: "https://github.com/frida-forks/gir2swift.git", branch: "development"),
+        .package(url: "https://github.com/frida-forks/SwiftGtk.git",  branch: "gtk4-development"),
         .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0"),
     ],
     targets: [
